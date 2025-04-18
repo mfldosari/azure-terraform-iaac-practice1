@@ -108,3 +108,23 @@ variable "function_app_name" {
 variable "storage_account_name" {
   description = "The name of the storage account"
 }
+
+
+
+# Name of the Cosmos DB account
+variable "cosmosdb_account_name" {
+  description = "Name of the Cosmos DB account"
+  type        = string
+}
+
+# Name of the Cosmos DB SQL database
+variable "cosmosdb_database_name" {
+  description = "Name of the Cosmos DB SQL database"
+  type        = string
+}
+
+# Name of the Cosmos DB SQL container
+variable "cosmosdb_container_name" {
+  description = "Name of the Cosmos DB SQL container"
+  type        = string
+}
